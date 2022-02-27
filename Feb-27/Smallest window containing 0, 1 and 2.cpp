@@ -34,6 +34,7 @@ bool check(string s, int m) {
                 l = m + 1;
             }
         }
+        
         if(check(s, l)) {
           res = min(res, l);
         }
